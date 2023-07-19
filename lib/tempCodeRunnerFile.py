@@ -20,7 +20,7 @@ long_planeteer_calls(["Fire", "Earth", "wind", "axe"])
 def find_the_cheese(cheese_strings):
     cheese_types = ["cheddar", "gouda", "camembert"]
     for cheese_string in cheese_strings:
-        if cheese_string.lower() in cheese_types:
+        if cheese_string in cheese_types:
             print(cheese_string)
             return cheese_string
     return None
